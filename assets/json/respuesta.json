@@ -1,1202 +1,203 @@
 [
-  {
-    "id":1,
-    "respuesta":"19",
-    "correcta":false,
-    "idpregunta":1
-  },
-  {
-    "id":2,
-    "respuesta":"24",
-    "correcta":false,
-    "idpregunta":1
-  },
-  {
-    "id":3,
-    "respuesta":"21",
-    "correcta":false,
-    "idpregunta":1
-  },
-  {
-    "id":4,
-    "respuesta":"22",
-    "correcta":true,
-    "idpregunta":1
-  },
-  {
-    "id":5,
-    "respuesta":"32",
-    "correcta":false,
-    "idpregunta":2
-  },
-  {
-    "id":6,
-    "respuesta":"35",
-    "correcta":false,
-    "idpregunta":2
-  },
-  {
-    "id":7,
-    "respuesta":"33",
-    "correcta":true,
-    "idpregunta":2
-  },
-  {
-    "id":8,
-    "respuesta":"31",
-    "correcta":false,
-    "idpregunta":2
-  },
-  {
-    "id":9,
-    "respuesta":"19",
-    "correcta":false,
-    "idpregunta":3
-  },
-  {
-    "id":10,
-    "respuesta":"23",
-    "correcta":false,
-    "idpregunta":3
-  },
-  {
-    "id":11,
-    "respuesta":"17",
-    "correcta":false,
-    "idpregunta":3
-  },
-  {
-    "id":12,
-    "respuesta":"20",
-    "correcta":true,
-    "idpregunta":3
-  },
-  {
-    "id":13,
-    "respuesta":"28",
-    "correcta":false,
-    "idpregunta":4
-  },
-  {
-    "id":14,
-    "respuesta":"27",
-    "correcta":false,
-    "idpregunta":4
-  },
-  {
-    "id":15,
-    "respuesta":"25",
-    "correcta":true,
-    "idpregunta":4
-  },
-  {
-    "id":16,
-    "respuesta":"24",
-    "correcta":false,
-    "idpregunta":4
-  },
-  {
-    "id":17,
-    "respuesta":"19",
-    "correcta":false,
-    "idpregunta":5
-  },
-  {
-    "id":18,
-    "respuesta":"18",
-    "correcta":true,
-    "idpregunta":5
-  },
-  {
-    "id":19,
-    "respuesta":"20",
-    "correcta":false,
-    "idpregunta":5
-  },
-  {
-    "id":20,
-    "respuesta":"21",
-    "correcta":false,
-    "idpregunta":5
-  },
-  {
-    "id":21,
-    "respuesta":"31",
-    "correcta":false,
-    "idpregunta":6
-  },
-  {
-    "id":22,
-    "respuesta":"29",
-    "correcta":false,
-    "idpregunta":6
-  },
-  {
-    "id":23,
-    "respuesta":"30",
-    "correcta":true,
-    "idpregunta":6
-  },
-  {
-    "id":24,
-    "respuesta":"32",
-    "correcta":false,
-    "idpregunta":6
-  },
-  {
-    "id":25,
-    "respuesta":"30",
-    "correcta":false,
-    "idpregunta":7
-  },
-  {
-    "id":26,
-    "respuesta":"35",
-    "correcta":false,
-    "idpregunta":7
-  },
-  {
-    "id":27,
-    "respuesta":"32",
-    "correcta":true,
-    "idpregunta":7
-  },
-  {
-    "id":28,
-    "respuesta":"29",
-    "correcta":false,
-    "idpregunta":7
-  },
-  {
-    "id":29,
-    "respuesta":"23",
-    "correcta":false,
-    "idpregunta":8
-  },
-  {
-    "id":30,
-    "respuesta":"17",
-    "correcta":false,
-    "idpregunta":8
-  },
-  {
-    "id":31,
-    "respuesta":"20",
-    "correcta":true,
-    "idpregunta":8
-  },
-  {
-    "id":32,
-    "respuesta":"18",
-    "correcta":false,
-    "idpregunta":8
-  },
-  {
-    "id":33,
-    "respuesta":"8",
-    "correcta":false,
-    "idpregunta":9
-  },
-  {
-    "id":34,
-    "respuesta":"9",
-    "correcta":false,
-    "idpregunta":9
-  },
-  {
-    "id":35,
-    "respuesta":"13",
-    "correcta":false,
-    "idpregunta":9
-  },
-  {
-    "id":36,
-    "respuesta":"11",
-    "correcta":true,
-    "idpregunta":9
-  },
-  {
-    "id":37,
-    "respuesta":"17",
-    "correcta":true,
-    "idpregunta":10
-  },
-  {
-    "id":38,
-    "respuesta":"15",
-    "correcta":false,
-    "idpregunta":10
-  },
-  {
-    "id":39,
-    "respuesta":"20",
-    "correcta":false,
-    "idpregunta":10
-  },
-  {
-    "id":40,
-    "respuesta":"19",
-    "correcta":false,
-    "idpregunta":10
-  },
-  {
-    "id":41,
-    "respuesta":"5",
-    "correcta":false,
-    "idpregunta":11
-  },
-  {
-    "id":42,
-    "respuesta":"10",
-    "correcta":false,
-    "idpregunta":11
-  },
-  {
-    "id":43,
-    "respuesta":"7",
-    "correcta":true,
-    "idpregunta":11
-  },
-  {
-    "id":44,
-    "respuesta":"8",
-    "correcta":false,
-    "idpregunta":11
-  },
-  {
-    "id":45,
-    "respuesta":"15",
-    "correcta":false,
-    "idpregunta":12
-  },
-  {
-    "id":46,
-    "respuesta":"21",
-    "correcta":false,
-    "idpregunta":12
-  },
-  {
-    "id":47,
-    "respuesta":"18",
-    "correcta":true,
-    "idpregunta":12
-  },
-  {
-    "id":48,
-    "respuesta":"16",
-    "correcta":false,
-    "idpregunta":12
-  },
-  {
-    "id":49,
-    "respuesta":"25",
-    "correcta":false,
-    "idpregunta":13
-  },
-  {
-    "id":50,
-    "respuesta":"19",
-    "correcta":false,
-    "idpregunta":13
-  },
-  {
-    "id":51,
-    "respuesta":"20",
-    "correcta":false,
-    "idpregunta":13
-  },
-  {
-    "id":52,
-    "respuesta":"22",
-    "correcta":true,
-    "idpregunta":13
-  },
-  {
-    "id":53,
-    "respuesta":"29",
-    "correcta":false,
-    "idpregunta":14
-  },
-  {
-    "id":54,
-    "respuesta":"30",
-    "correcta":false,
-    "idpregunta":14
-  },
-  {
-    "id":55,
-    "respuesta":"27",
-    "correcta":true,
-    "idpregunta":14
-  },
-  {
-    "id":56,
-    "respuesta":"25",
-    "correcta":false,
-    "idpregunta":14
-  },
-  {
-    "id":57,
-    "respuesta":"23",
-    "correcta":true,
-    "idpregunta":15
-  },
-  {
-    "id":58,
-    "respuesta":"26",
-    "correcta":false,
-    "idpregunta":15
-  },
-  {
-    "id":59,
-    "respuesta":"22",
-    "correcta":false,
-    "idpregunta":15
-  },
-  {
-    "id":60,
-    "respuesta":"25",
-    "correcta":false,
-    "idpregunta":15
-  },
-  {
-    "id":61,
-    "respuesta":"16",
-    "correcta":false,
-    "idpregunta":16
-  },
-  {
-    "id":62,
-    "respuesta":"15",
-    "correcta":true,
-    "idpregunta":16
-  },
-  {
-    "id":63,
-    "respuesta":"17",
-    "correcta":false,
-    "idpregunta":16
-  },
-  {
-    "id":64,
-    "respuesta":"18",
-    "correcta":false,
-    "idpregunta":16
-  },
-  {
-    "id":65,
-    "respuesta":"22",
-    "correcta":true,
-    "idpregunta":17
-  },
-  {
-    "id":66,
-    "respuesta":"20",
-    "correcta":false,
-    "idpregunta":17
-  },
-  {
-    "id":67,
-    "respuesta":"21",
-    "correcta":false,
-    "idpregunta":17
-  },
-  {
-    "id":68,
-    "respuesta":"23",
-    "correcta":false,
-    "idpregunta":17
-  },
-  {
-    "id":69,
-    "respuesta":"25",
-    "correcta":true,
-    "idpregunta":18
-  },
-  {
-    "id":70,
-    "respuesta":"28",
-    "correcta":false,
-    "idpregunta":18
-  },
-  {
-    "id":71,
-    "respuesta":"26",
-    "correcta":false,
-    "idpregunta":18
-  },
-  {
-    "id":72,
-    "respuesta":"23",
-    "correcta":false,
-    "idpregunta":18
-  },
-  {
-    "id":73,
-    "respuesta":"21",
-    "correcta":true,
-    "idpregunta":19
-  },
-  {
-    "id":74,
-    "respuesta":"24",
-    "correcta":false,
-    "idpregunta":19
-  },
-  {
-    "id":75,
-    "respuesta":"20",
-    "correcta":false,
-    "idpregunta":19
-  },
-  {
-    "id":76,
-    "respuesta":"18",
-    "correcta":false,
-    "idpregunta":19
-  },
-  {
-    "id":77,
-    "respuesta":"16",
-    "correcta":false,
-    "idpregunta":20
-  },
-  {
-    "id":78,
-    "respuesta":"21",
-    "correcta":false,
-    "idpregunta":20
-  },
-  {
-    "id":79,
-    "respuesta":"22",
-    "correcta":false,
-    "idpregunta":20
-  },
-  {
-    "id":80,
-    "respuesta":"19",
-    "correcta":true,
-    "idpregunta":20
-  },
-  {
-    "id":81,
-    "respuesta":"12",
-    "correcta":false,
-    "idpregunta":21
-  },
-  {
-    "id":82,
-    "respuesta":"7",
-    "correcta":false,
-    "idpregunta":21
-  },
-  {
-    "id":83,
-    "respuesta":"13",
-    "correcta":false,
-    "idpregunta":21
-  },
-  {
-    "id":84,
-    "respuesta":"10",
-    "correcta":true,
-    "idpregunta":21
-  },
-  {
-    "id":85,
-    "respuesta":"24",
-    "correcta":true,
-    "idpregunta":22
-  },
-  {
-    "id":86,
-    "respuesta":"27",
-    "correcta":false,
-    "idpregunta":22
-  },
-  {
-    "id":87,
-    "respuesta":"23",
-    "correcta":false,
-    "idpregunta":22
-  },
-  {
-    "id":88,
-    "respuesta":"25",
-    "correcta":false,
-    "idpregunta":22
-  },
-  {
-    "id":89,
-    "respuesta":"23",
-    "correcta":false,
-    "idpregunta":23
-  },
-  {
-    "id":90,
-    "respuesta":"22",
-    "correcta":false,
-    "idpregunta":23
-  },
-  {
-    "id":91,
-    "respuesta":"20",
-    "correcta":true,
-    "idpregunta":23
-  },
-  {
-    "id":92,
-    "respuesta":"18",
-    "correcta":false,
-    "idpregunta":23
-  },
-  {
-    "id":93,
-    "respuesta":"8",
-    "correcta":false,
-    "idpregunta":24
-  },
-  {
-    "id":94,
-    "respuesta":"9",
-    "correcta":false,
-    "idpregunta":24
-  },
-  {
-    "id":95,
-    "respuesta":"6",
-    "correcta":true,
-    "idpregunta":24
-  },
-  {
-    "id":96,
-    "respuesta":"7",
-    "correcta":false,
-    "idpregunta":24
-  },
-  {
-    "id":97,
-    "respuesta":"12",
-    "correcta":false,
-    "idpregunta":25
-  },
-  {
-    "id":98,
-    "respuesta":"10",
-    "correcta":true,
-    "idpregunta":25
-  },
-  {
-    "id":99,
-    "respuesta":"13",
-    "correcta":false,
-    "idpregunta":25
-  },
-  {
-    "id":100,
-    "respuesta":"7",
-    "correcta":false,
-    "idpregunta":25
-  },
-  {
-    "id":101,
-    "respuesta":"2",
-    "correcta":false,
-    "idpregunta":26
-  },
-  {
-    "id":102,
-    "respuesta":"4",
-    "correcta":false,
-    "idpregunta":26
-  },
-  {
-    "id":103,
-    "respuesta":"3",
-    "correcta":false,
-    "idpregunta":26
-  },
-  {
-    "id":104,
-    "respuesta":"1",
-    "correcta":true,
-    "idpregunta":26
-  },
-  {
-    "id":105,
-    "respuesta":"1",
-    "correcta":false,
-    "idpregunta":27
-  },
-  {
-    "id":106,
-    "respuesta":"3",
-    "correcta":false,
-    "idpregunta":27
-  },
-  {
-    "id":107,
-    "respuesta":"0",
-    "correcta":true,
-    "idpregunta":27
-  },
-  {
-    "id":108,
-    "respuesta":"2",
-    "correcta":false,
-    "idpregunta":27
-  },
-  {
-    "id":109,
-    "respuesta":"9",
-    "correcta":true,
-    "idpregunta":28
-  },
-  {
-    "id":110,
-    "respuesta":"6",
-    "correcta":false,
-    "idpregunta":28
-  },
-  {
-    "id":111,
-    "respuesta":"12",
-    "correcta":false,
-    "idpregunta":28
-  },
-  {
-    "id":112,
-    "respuesta":"7",
-    "correcta":false,
-    "idpregunta":28
-  },
-  {
-    "id":113,
-    "respuesta":"3",
-    "correcta":false,
-    "idpregunta":29
-  },
-  {
-    "id":114,
-    "respuesta":"1",
-    "correcta":false,
-    "idpregunta":29
-  },
-  {
-    "id":115,
-    "respuesta":"2",
-    "correcta":false,
-    "idpregunta":29
-  },
-  {
-    "id":116,
-    "respuesta":"0",
-    "correcta":true,
-    "idpregunta":29
-  },
-  {
-    "id":117,
-    "respuesta":"3",
-    "correcta":false,
-    "idpregunta":30
-  },
-  {
-    "id":118,
-    "respuesta":"2",
-    "correcta":false,
-    "idpregunta":30
-  },
-  {
-    "id":119,
-    "respuesta":"0",
-    "correcta":true,
-    "idpregunta":30
-  },
-  {
-    "id":120,
-    "respuesta":"1",
-    "correcta":false,
-    "idpregunta":30
-  },
-  {
-    "id":121,
-    "respuesta":"15",
-    "correcta":true,
-    "idpregunta":31
-  },
-  {
-    "id":122,
-    "respuesta":"14",
-    "correcta":false,
-    "idpregunta":31
-  },
-  {
-    "id":123,
-    "respuesta":"16",
-    "correcta":false,
-    "idpregunta":31
-  },
-  {
-    "id":124,
-    "respuesta":"13",
-    "correcta":false,
-    "idpregunta":31
-  },
-  {
-    "id":125,
-    "respuesta":"0",
-    "correcta":true,
-    "idpregunta":32
-  },
-  {
-    "id":126,
-    "respuesta":"2",
-    "correcta":false,
-    "idpregunta":32
-  },
-  {
-    "id":127,
-    "respuesta":"3",
-    "correcta":false,
-    "idpregunta":32
-  },
-  {
-    "id":128,
-    "respuesta":"1",
-    "correcta":false,
-    "idpregunta":32
-  },
-  {
-    "id":129,
-    "respuesta":"6",
-    "correcta":false,
-    "idpregunta":33
-  },
-  {
-    "id":130,
-    "respuesta":"11",
-    "correcta":false,
-    "idpregunta":33
-  },
-  {
-    "id":131,
-    "respuesta":"7",
-    "correcta":false,
-    "idpregunta":33
-  },
-  {
-    "id":132,
-    "respuesta":"8",
-    "correcta":true,
-    "idpregunta":33
-  },
-  {
-    "id":133,
-    "respuesta":"7",
-    "correcta":false,
-    "idpregunta":34
-  },
-  {
-    "id":134,
-    "respuesta":"6",
-    "correcta":false,
-    "idpregunta":34
-  },
-  {
-    "id":135,
-    "respuesta":"8",
-    "correcta":true,
-    "idpregunta":34
-  },
-  {
-    "id":136,
-    "respuesta":"5",
-    "correcta":false,
-    "idpregunta":34
-  },
-  {
-    "id":137,
-    "respuesta":"13",
-    "correcta":true,
-    "idpregunta":35
-  },
-  {
-    "id":138,
-    "respuesta":"16",
-    "correcta":false,
-    "idpregunta":35
-  },
-  {
-    "id":139,
-    "respuesta":"15",
-    "correcta":false,
-    "idpregunta":35
-  },
-  {
-    "id":140,
-    "respuesta":"10",
-    "correcta":false,
-    "idpregunta":35
-  },
-  {
-    "id":141,
-    "respuesta":"3",
-    "correcta":false,
-    "idpregunta":36
-  },
-  {
-    "id":142,
-    "respuesta":"2",
-    "correcta":true,
-    "idpregunta":36
-  },
-  {
-    "id":143,
-    "respuesta":"5",
-    "correcta":false,
-    "idpregunta":36
-  },
-  {
-    "id":144,
-    "respuesta":"4",
-    "correcta":false,
-    "idpregunta":36
-  },
-  {
-    "id":145,
-    "respuesta":"0",
-    "correcta":false,
-    "idpregunta":37
-  },
-  {
-    "id":146,
-    "respuesta":"1",
-    "correcta":false,
-    "idpregunta":37
-  },
-  {
-    "id":147,
-    "respuesta":"5",
-    "correcta":false,
-    "idpregunta":37
-  },
-  {
-    "id":148,
-    "respuesta":"3",
-    "correcta":true,
-    "idpregunta":37
-  },
-  {
-    "id":149,
-    "respuesta":"1",
-    "correcta":false,
-    "idpregunta":38
-  },
-  {
-    "id":150,
-    "respuesta":"4",
-    "correcta":true,
-    "idpregunta":38
-  },
-  {
-    "id":151,
-    "respuesta":"5",
-    "correcta":false,
-    "idpregunta":38
-  },
-  {
-    "id":152,
-    "respuesta":"7",
-    "correcta":false,
-    "idpregunta":38
-  },
-  {
-    "id":153,
-    "respuesta":"13",
-    "correcta":false,
-    "idpregunta":39
-  },
-  {
-    "id":154,
-    "respuesta":"10",
-    "correcta":true,
-    "idpregunta":39
-  },
-  {
-    "id":155,
-    "respuesta":"8",
-    "correcta":false,
-    "idpregunta":39
-  },
-  {
-    "id":156,
-    "respuesta":"7",
-    "correcta":false,
-    "idpregunta":39
-  },
-  {
-    "id":157,
-    "respuesta":"6",
-    "correcta":true,
-    "idpregunta":40
-  },
-  {
-    "id":158,
-    "respuesta":"7",
-    "correcta":false,
-    "idpregunta":40
-  },
-  {
-    "id":159,
-    "respuesta":"4",
-    "correcta":false,
-    "idpregunta":40
-  },
-  {
-    "id":160,
-    "respuesta":"5",
-    "correcta":false,
-    "idpregunta":40
-  },
-  {
-    "id":161,
-    "respuesta":"5",
-    "correcta":true,
-    "idpregunta":41
-  },
-  {
-    "id":162,
-    "respuesta":"3",
-    "correcta":false,
-    "idpregunta":41
-  },
-  {
-    "id":163,
-    "respuesta":"8",
-    "correcta":false,
-    "idpregunta":41
-  },
-  {
-    "id":164,
-    "respuesta":"6",
-    "correcta":false,
-    "idpregunta":41
-  },
-  {
-    "id":165,
-    "respuesta":"12",
-    "correcta":true,
-    "idpregunta":42
-  },
-  {
-    "id":166,
-    "respuesta":"10",
-    "correcta":false,
-    "idpregunta":42
-  },
-  {
-    "id":167,
-    "respuesta":"15",
-    "correcta":false,
-    "idpregunta":42
-  },
-  {
-    "id":168,
-    "respuesta":"11",
-    "correcta":false,
-    "idpregunta":42
-  },
-  {
-    "id":169,
-    "respuesta":"12",
-    "correcta":false,
-    "idpregunta":43
-  },
-  {
-    "id":170,
-    "respuesta":"11",
-    "correcta":true,
-    "idpregunta":43
-  },
-  {
-    "id":171,
-    "respuesta":"9",
-    "correcta":false,
-    "idpregunta":43
-  },
-  {
-    "id":172,
-    "respuesta":"14",
-    "correcta":false,
-    "idpregunta":43
-  },
-  {
-    "id":173,
-    "respuesta":"11",
-    "correcta":true,
-    "idpregunta":44
-  },
-  {
-    "id":174,
-    "respuesta":"9",
-    "correcta":false,
-    "idpregunta":44
-  },
-  {
-    "id":175,
-    "respuesta":"10",
-    "correcta":false,
-    "idpregunta":44
-  },
-  {
-    "id":176,
-    "respuesta":"8",
-    "correcta":false,
-    "idpregunta":44
-  },
-  {
-    "id":177,
-    "respuesta":"4",
-    "correcta":false,
-    "idpregunta":45
-  },
-  {
-    "id":178,
-    "respuesta":"0",
-    "correcta":false,
-    "idpregunta":45
-  },
-  {
-    "id":179,
-    "respuesta":"1",
-    "correcta":true,
-    "idpregunta":45
-  },
-  {
-    "id":180,
-    "respuesta":"3",
-    "correcta":false,
-    "idpregunta":45
-  },
-  {
-    "id":181,
-    "respuesta":"16",
-    "correcta":true,
-    "idpregunta":46
-  },
-  {
-    "id":182,
-    "respuesta":"19",
-    "correcta":false,
-    "idpregunta":46
-  },
-  {
-    "id":183,
-    "respuesta":"15",
-    "correcta":false,
-    "idpregunta":46
-  },
-  {
-    "id":184,
-    "respuesta":"14",
-    "correcta":false,
-    "idpregunta":46
-  },
-  {
-    "id":185,
-    "respuesta":"10",
-    "correcta":true,
-    "idpregunta":47
-  },
-  {
-    "id":186,
-    "respuesta":"7",
-    "correcta":false,
-    "idpregunta":47
-  },
-  {
-    "id":187,
-    "respuesta":"9",
-    "correcta":false,
-    "idpregunta":47
-  },
-  {
-    "id":188,
-    "respuesta":"13",
-    "correcta":false,
-    "idpregunta":47
-  },
-  {
-    "id":189,
-    "respuesta":"9",
-    "correcta":false,
-    "idpregunta":48
-  },
-  {
-    "id":190,
-    "respuesta":"4",
-    "correcta":false,
-    "idpregunta":48
-  },
-  {
-    "id":191,
-    "respuesta":"6",
-    "correcta":false,
-    "idpregunta":48
-  },
-  {
-    "id":192,
-    "respuesta":"7",
-    "correcta":true,
-    "idpregunta":48
-  },
-  {
-    "id":193,
-    "respuesta":"3",
-    "correcta":false,
-    "idpregunta":49
-  },
-  {
-    "id":194,
-    "respuesta":"4",
-    "correcta":false,
-    "idpregunta":49
-  },
-  {
-    "id":195,
-    "respuesta":"2",
-    "correcta":false,
-    "idpregunta":49
-  },
-  {
-    "id":196,
-    "respuesta":"1",
-    "correcta":true,
-    "idpregunta":49
-  },
-  {
-    "id":197,
-    "respuesta":"14",
-    "correcta":true,
-    "idpregunta":50
-  },
-  {
-    "id":198,
-    "respuesta":"15",
-    "correcta":false,
-    "idpregunta":50
-  },
-  {
-    "id":199,
-    "respuesta":"13",
-    "correcta":false,
-    "idpregunta":50
-  },
-  {
-    "id":200,
-    "respuesta":"16",
-    "correcta":false,
-    "idpregunta":50
-  }
+ {"id":1,"respuesta":" Factura","correcta":false,"idpregunta":1},
+{"id":2,"respuesta":" Recibo por Honorarios","correcta":false,"idpregunta":1},
+{"id":3,"respuesta":" Recibo de arrendamiento","correcta":true,"idpregunta":1},
+{"id":4,"respuesta":" Boleta de venta","correcta":false,"idpregunta":1},
+{"id":5,"respuesta":" 10%","correcta":false,"idpregunta":2},
+{"id":6,"respuesta":" 6.25%","correcta":false,"idpregunta":2},
+{"id":7,"respuesta":" 5%","correcta":true,"idpregunta":2},
+{"id":8,"respuesta":" 8%","correcta":false,"idpregunta":2},
+{"id":9,"respuesta":" 46,813 soles","correcta":true,"idpregunta":3},
+{"id":10,"respuesta":" 40,250 soles","correcta":false,"idpregunta":3},
+{"id":11,"respuesta":" 43,313 soles","correcta":false,"idpregunta":3},
+{"id":12,"respuesta":" 50,000 soles","correcta":false,"idpregunta":3},
+{"id":13,"respuesta":" Emitir una boleta física","correcta":false,"idpregunta":4},
+{"id":14,"respuesta":" Declarar y pagar el impuesto correspondiente","correcta":true,"idpregunta":4},
+{"id":15,"respuesta":" Registrar el contrato en el municipio","correcta":false,"idpregunta":4},
+{"id":16,"respuesta":" Informar solo si el alquiler supera 3,000 soles","correcta":false,"idpregunta":4},
+{"id":17,"respuesta":" No se puede declarar el impuesto","correcta":false,"idpregunta":5},
+{"id":18,"respuesta":" SUNAT lo rechaza automáticamente","correcta":false,"idpregunta":5},
+{"id":19,"respuesta":" El contrato verbal sigue teniendo validez tributaria","correcta":true,"idpregunta":5},
+{"id":20,"respuesta":" El inquilino no puede presentar reclamos","correcta":false,"idpregunta":5},
+{"id":21,"respuesta":" Formulario 1685","correcta":false,"idpregunta":6},
+{"id":22,"respuesta":" PDT 621","correcta":false,"idpregunta":6},
+{"id":23,"respuesta":" Formulario 1609","correcta":false,"idpregunta":6},
+{"id":24,"respuesta":" Formulario Virtual 1683","correcta":true,"idpregunta":6},
+{"id":25,"respuesta":" Sí, si es recurrente","correcta":true,"idpregunta":7},
+{"id":26,"respuesta":" No, corresponde a segunda categoría","correcta":false,"idpregunta":7},
+{"id":27,"respuesta":" Solo si el valor es mayor a S/ 10,000","correcta":false,"idpregunta":7},
+{"id":28,"respuesta":" Solo en caso de maquinaria agrícola","correcta":false,"idpregunta":7},
+{"id":29,"respuesta":" 20%","correcta":false,"idpregunta":8},
+{"id":30,"respuesta":" 20% del ingreso bruto","correcta":true,"idpregunta":8},
+{"id":31,"respuesta":" 7 UIT","correcta":false,"idpregunta":8},
+{"id":32,"respuesta":" No hay deducción","correcta":false,"idpregunta":8},
+{"id":33,"respuesta":" El ingreso neto después de deducir gastos","correcta":false,"idpregunta":9},
+{"id":34,"respuesta":" Solo los pagos bancarizados","correcta":false,"idpregunta":9},
+{"id":35,"respuesta":" Todo monto cobrado por el alquiler antes de deducciones","correcta":true,"idpregunta":9},
+{"id":36,"respuesta":" La suma declarada por el inquilino","correcta":false,"idpregunta":9},
+{"id":37,"respuesta":" No, debe ser escrito","correcta":false,"idpregunta":10},
+{"id":38,"respuesta":" Solo si es notariado","correcta":false,"idpregunta":10},
+{"id":39,"respuesta":" Sí, mientras haya evidencia del ingreso","correcta":true,"idpregunta":10},
+{"id":40,"respuesta":" Sí, pero solo por 6 meses","correcta":false,"idpregunta":10},
+{"id":41,"respuesta":" Sueldos y salarios","correcta":false,"idpregunta":11},
+{"id":42,"respuesta":" Alquileres de inmuebles","correcta":false,"idpregunta":11},
+{"id":43,"respuesta":" Dividendos, intereses y regalías","correcta":true,"idpregunta":11},
+{"id":44,"respuesta":" Ventas de productos","correcta":false,"idpregunta":11},
+{"id":45,"respuesta":" Sí, si superan el monto exonerado","correcta":true,"idpregunta":12},
+{"id":46,"respuesta":" No, están totalmente exonerados","correcta":false,"idpregunta":12},
+{"id":47,"respuesta":" Solo si provienen del exterior","correcta":false,"idpregunta":12},
+{"id":48,"respuesta":" Solo si son de bancos internacionales","correcta":false,"idpregunta":12},
+{"id":49,"respuesta":" No, pertenecen a renta empresarial","correcta":false,"idpregunta":13},
+{"id":50,"respuesta":" Solo si superan las 100 acciones","correcta":false,"idpregunta":13},
+{"id":51,"respuesta":" Sí, son parte de la segunda categoría","correcta":true,"idpregunta":13},
+{"id":52,"respuesta":" Solo si son acciones en EE.UU.","correcta":false,"idpregunta":13},
+{"id":53,"respuesta":" 15%","correcta":false,"idpregunta":14},
+{"id":54,"respuesta":" 5%","correcta":false,"idpregunta":14},
+{"id":55,"respuesta":" 30%","correcta":false,"idpregunta":14},
+{"id":56,"respuesta":" 6.25%","correcta":true,"idpregunta":14},
+{"id":57,"respuesta":" Comprobantes de liquidación, constancias de depósito y contratos","correcta":true,"idpregunta":15},
+{"id":58,"respuesta":" Solo contratos notariados","correcta":false,"idpregunta":15},
+{"id":59,"respuesta":" Declaraciones juradas del pagador","correcta":false,"idpregunta":15},
+{"id":60,"respuesta":" Comprobantes de venta","correcta":false,"idpregunta":15},
+{"id":61,"respuesta":" El contribuyente lo paga en su DJ anual","correcta":false,"idpregunta":16},
+{"id":62,"respuesta":" La empresa retiene el 5% antes de pagar","correcta":true,"idpregunta":16},
+{"id":63,"respuesta":" Se calcula en la renta global","correcta":false,"idpregunta":16},
+{"id":64,"respuesta":" Con base en la variación del dólar","correcta":false,"idpregunta":16},
+{"id":65,"respuesta":" No, el accionista debe declarar","correcta":false,"idpregunta":17},
+{"id":66,"respuesta":" Sí, del 5% sobre los dividendos","correcta":true,"idpregunta":17},
+{"id":67,"respuesta":" Solo si el accionista lo solicita","correcta":false,"idpregunta":17},
+{"id":68,"respuesta":" Depende del tipo de empresa","correcta":false,"idpregunta":17},
+{"id":69,"respuesta":" Un impuesto adicional sobre la renta neta","correcta":false,"idpregunta":18},
+{"id":70,"respuesta":" Un ingreso estimado por ley, sin operación real","correcta":true,"idpregunta":18},
+{"id":71,"respuesta":" Una deducción obligatoria","correcta":false,"idpregunta":18},
+{"id":72,"respuesta":" Un beneficio para menores de edad","correcta":false,"idpregunta":18},
+{"id":73,"respuesta":" Sí, 7 UIT como en la quinta categoría","correcta":false,"idpregunta":19},
+{"id":74,"respuesta":" Sí, todos los gastos documentados","correcta":false,"idpregunta":19},
+{"id":75,"respuesta":" No, no hay deducciones","correcta":true,"idpregunta":19},
+{"id":76,"respuesta":" Solo en caso de dividendos extranjeros","correcta":false,"idpregunta":19},
+{"id":77,"respuesta":" Sí, si el contribuyente es domiciliado en Perú","correcta":true,"idpregunta":20},
+{"id":78,"respuesta":" No, están exoneradas","correcta":false,"idpregunta":20},
+{"id":79,"respuesta":" Solo si son mayores a 10,000 dólares","correcta":false,"idpregunta":20},
+{"id":80,"respuesta":" Solo si provienen de empresas en Latinoamérica","correcta":false,"idpregunta":20},
+{"id":81,"respuesta":"Solo microempresas","correcta":false,"idpregunta":21},
+{"id":82,"respuesta":"Solo personas naturales con negocio","correcta":false,"idpregunta":21},
+{"id":83,"respuesta":"Empresas con actividad empresarial, sociedades y asociaciones","correcta":true,"idpregunta":21},
+{"id":84,"respuesta":"Profesionales independientes","correcta":false,"idpregunta":21},
+{"id":85,"respuesta":"No, solo si forma una empresa","correcta":false,"idpregunta":22},
+{"id":86,"respuesta":"Sí, si realiza actividad empresarial de forma habitual","correcta":true,"idpregunta":22},
+{"id":87,"respuesta":"Solo si emite factura electrónica","correcta":false,"idpregunta":22},
+{"id":88,"respuesta":"No, tributa en cuarta categoría","correcta":false,"idpregunta":22},
+{"id":89,"respuesta":"Solo libro diario","correcta":false,"idpregunta":23},
+{"id":90,"respuesta":"Ninguno si estÃ¡ en Nuevo RUS","correcta":false,"idpregunta":23},
+{"id":91,"respuesta":"Libro diario, mayor y registro de compras y ventas","correcta":true,"idpregunta":23},
+{"id":92,"respuesta":"Solo registro de ingresos","correcta":false,"idpregunta":23},
+{"id":93,"respuesta":"0.05","correcta":false,"idpregunta":24},
+{"id":94,"respuesta":"0.15","correcta":false,"idpregunta":24},
+{"id":95,"respuesta":"0.0625","correcta":false,"idpregunta":24},
+{"id":96,"respuesta":"0.295","correcta":true,"idpregunta":24},
+{"id":97,"respuesta":"Categorí­as del IGV","correcta":false,"idpregunta":25},
+{"id":98,"respuesta":"Regí­menes del sector público","correcta":false,"idpregunta":25},
+{"id":99,"respuesta":"Niveles de gasto empresarial","correcta":false,"idpregunta":25},
+{"id":100,"respuesta":"Diferentes formas de tributar según ingresos y tamaÃ±o de empresa","correcta":true,"idpregunta":25},
+{"id":101,"respuesta":"Cualquier gasto personal del dueño","correcta":false,"idpregunta":26},
+{"id":102,"respuesta":"Solo gastos mayores a S/ 1,000","correcta":false,"idpregunta":26},
+{"id":103,"respuesta":"Solo gastos pagados con tarjeta","correcta":false,"idpregunta":26},
+{"id":104,"respuesta":"Los relacionados a la generación de renta y debidamente sustentados","correcta":true,"idpregunta":26},
+{"id":105,"respuesta":"Los ingresos brutos de la empresa","correcta":false,"idpregunta":27},
+{"id":106,"respuesta":"La suma del IGV y el IR","correcta":false,"idpregunta":27},
+{"id":107,"respuesta":"El capital social declarado","correcta":false,"idpregunta":27},
+{"id":108,"respuesta":"El ingreso neto después de deducir costos y gastos vÃ¡lidos","correcta":true,"idpregunta":27},
+{"id":109,"respuesta":"Trimestralmente","correcta":false,"idpregunta":28},
+{"id":110,"respuesta":"Una vez al año","correcta":false,"idpregunta":28},
+{"id":111,"respuesta":"Solo si hay ventas","correcta":false,"idpregunta":28},
+{"id":112,"respuesta":"Mensualmente","correcta":true,"idpregunta":28},
+{"id":113,"respuesta":"No, están exentas","correcta":false,"idpregunta":29},
+{"id":114,"respuesta":"Solo si facturan más de 150 UIT","correcta":false,"idpregunta":29},
+{"id":115,"respuesta":"Solo si tienen más de 5 socios","correcta":false,"idpregunta":29},
+{"id":116,"respuesta":"Sí, como contribuyentes de tercera categorÃ­a","correcta":true,"idpregunta":29},
+{"id":117,"respuesta":"Régimen Especial del IGV","correcta":false,"idpregunta":30},
+{"id":118,"respuesta":"Tercera categoría solo desde el segundo año","correcta":false,"idpregunta":30},
+{"id":119,"respuesta":"Régimen de Cuarta categoría","correcta":false,"idpregunta":30},
+{"id":120,"respuesta":"MYPE Tributario si se inscribe voluntariamente","correcta":true,"idpregunta":30},
+{"id":121,"respuesta":"Comprobantes de pago por servicios empresariales","correcta":false,"idpregunta":31},
+{"id":122,"respuesta":"Boletas electrónicas de venta","correcta":false,"idpregunta":31},
+{"id":123,"respuesta":"Contratos de prestación de servicios","correcta":false,"idpregunta":31},
+{"id":124,"respuesta":"Comprobantes emitidos por profesionales independientes","correcta":true,"idpregunta":31},
+{"id":125,"respuesta":"Desde que supera 1 UIT al mes","correcta":false,"idpregunta":32},
+{"id":126,"respuesta":"Cuando los ingresos anuales superan 50,000 soles","correcta":false,"idpregunta":32},
+{"id":127,"respuesta":"Desde que supera 1,953 soles mensuales","correcta":true,"idpregunta":32},
+{"id":128,"respuesta":"A partir del segundo recibo emitido","correcta":false,"idpregunta":32},
+{"id":129,"respuesta":"Gastos médicos y educativos","correcta":false,"idpregunta":33},
+{"id":130,"respuesta":"Donaciones y pensiones","correcta":false,"idpregunta":33},
+{"id":131,"respuesta":"Hasta 3 UIT por gastos de salud","correcta":false,"idpregunta":33},
+{"id":132,"respuesta":"Hasta 20% de sus ingresos por gastos sustentados","correcta":true,"idpregunta":33},
+{"id":133,"respuesta":"0.0625","correcta":false,"idpregunta":34},
+{"id":134,"respuesta":"0.04","correcta":false,"idpregunta":34},
+{"id":135,"respuesta":"0.1","correcta":false,"idpregunta":34},
+{"id":136,"respuesta":"0.08","correcta":true,"idpregunta":34},
+{"id":137,"respuesta":"Formulario Virtual 1609","correcta":true,"idpregunta":35},
+{"id":138,"respuesta":"Formulario 1683","correcta":false,"idpregunta":35},
+{"id":139,"respuesta":"Formulario PDT 621","correcta":false,"idpregunta":35},
+{"id":140,"respuesta":"Formulario 709","correcta":false,"idpregunta":35},
+{"id":141,"respuesta":"No, siempre debe aplicarse retención","correcta":false,"idpregunta":36},
+{"id":142,"respuesta":"Sí, mediante solicitud en SUNAT","correcta":true,"idpregunta":36},
+{"id":143,"respuesta":"Solo si los ingresos no superan 3 UIT","correcta":false,"idpregunta":36},
+{"id":144,"respuesta":"Solo si el empleador lo autoriza","correcta":false,"idpregunta":36},
+{"id":145,"respuesta":"No, solo si se solicita","correcta":false,"idpregunta":37},
+{"id":146,"respuesta":"Sí, desde 2017 es obligatoria","correcta":true,"idpregunta":37},
+{"id":147,"respuesta":"Depende del monto del servicio","correcta":false,"idpregunta":37},
+{"id":148,"respuesta":"Solo si se emite a empresas","correcta":false,"idpregunta":37},
+{"id":149,"respuesta":"No, solo tributan en su país","correcta":false,"idpregunta":38},
+{"id":150,"respuesta":"Sí, si prestan servicios en Perú","correcta":true,"idpregunta":38},
+{"id":151,"respuesta":"Depende del tipo de profesión","correcta":false,"idpregunta":38},
+{"id":152,"respuesta":"Solo si tienen RUC peruano","correcta":false,"idpregunta":38},
+{"id":153,"respuesta":"No, se realiza por declaración posterior","correcta":false,"idpregunta":39},
+{"id":154,"respuesta":"Sí, se aplica al emitir el recibo","correcta":true,"idpregunta":39},
+{"id":155,"respuesta":"Solo si el servicio supera los S/ 2,000","correcta":false,"idpregunta":39},
+{"id":156,"respuesta":"Depende del cliente que paga","correcta":false,"idpregunta":39},
+{"id":157,"respuesta":"No, solo se permite en tercera categorí­a","correcta":false,"idpregunta":40},
+{"id":158,"respuesta":"Sí, si está relacionado a su actividad","correcta":true,"idpregunta":40},
+{"id":159,"respuesta":"Solo si paga más de S/ 1,500 al contador","correcta":false,"idpregunta":40},
+{"id":160,"respuesta":"Sí, pero solo hasta 1 UIT","correcta":false,"idpregunta":40},
+{"id":161,"respuesta":"Empresarios y comerciantes","correcta":false,"idpregunta":41},
+{"id":162,"respuesta":"Trabajadores independientes","correcta":false,"idpregunta":41},
+{"id":163,"respuesta":"Propietarios de inmuebles","correcta":false,"idpregunta":41},
+{"id":164,"respuesta":"Personas en relación de dependencia (planilla)","correcta":true,"idpregunta":41},
+{"id":165,"respuesta":"4 UIT","correcta":false,"idpregunta":42},
+{"id":166,"respuesta":"5 UIT","correcta":false,"idpregunta":42},
+{"id":167,"respuesta":"6 UIT","correcta":false,"idpregunta":42},
+{"id":168,"respuesta":"7 UIT","correcta":true,"idpregunta":42},
+{"id":169,"respuesta":"Aplicando un descuento único de 10%","correcta":false,"idpregunta":43},
+{"id":170,"respuesta":"Mediante una tabla progresiva acumulativa","correcta":true,"idpregunta":43},
+{"id":171,"respuesta":"Se descuenta el 5% del sueldo bruto","correcta":false,"idpregunta":43},
+{"id":172,"respuesta":"Con un monto fijo mensual","correcta":false,"idpregunta":43},
+{"id":173,"respuesta":"No, lo hace SUNAT directamente","correcta":false,"idpregunta":44},
+{"id":174,"respuesta":"Sí, debe retener el impuesto mensualmente","correcta":true,"idpregunta":44},
+{"id":175,"respuesta":"Solo si el sueldo supera 3 UIT","correcta":false,"idpregunta":44},
+{"id":176,"respuesta":"Solo en diciembre","correcta":false,"idpregunta":44},
+{"id":177,"respuesta":"Gastos escolares y universitarios","correcta":false,"idpregunta":45},
+{"id":178,"respuesta":"Donaciones religiosas","correcta":false,"idpregunta":45},
+{"id":179,"respuesta":"Aportaciones voluntarias a AFP","correcta":false,"idpregunta":45},
+{"id":180,"respuesta":"Gastos deducibles como alquiler, intereses hipotecarios, servicios profesionales","correcta":true,"idpregunta":45},
+{"id":181,"respuesta":"Una escala de gratificaciones laborales","correcta":false,"idpregunta":46},
+{"id":182,"respuesta":"La base de cálculo del IGV","correcta":false,"idpregunta":46},
+{"id":183,"respuesta":"Un valor referencial usado para tributar y deducir","correcta":true,"idpregunta":46},
+{"id":184,"respuesta":"El salario mínimo vital","correcta":false,"idpregunta":46},
+{"id":185,"respuesta":"Pierde toda deducción acumulada","correcta":false,"idpregunta":47},
+{"id":186,"respuesta":"Debe reiniciar su cálculo anual","correcta":false,"idpregunta":47},
+{"id":187,"respuesta":"El nuevo empleador debe continuar con el cálculo anual del IR","correcta":true,"idpregunta":47},
+{"id":188,"respuesta":"No tiene implicancias tributarias","correcta":false,"idpregunta":47},
+{"id":189,"respuesta":"No, están excluidas del IR","correcta":false,"idpregunta":48},
+{"id":190,"respuesta":"Sí, se suman al ingreso mensual para calcular el IR","correcta":true,"idpregunta":48},
+{"id":191,"respuesta":"Solo si se pagan en efectivo","correcta":false,"idpregunta":48},
+{"id":192,"respuesta":"Depende del sector económico","correcta":false,"idpregunta":48},
+{"id":193,"respuesta":"Sí, siempre tributa","correcta":false,"idpregunta":49},
+{"id":194,"respuesta":"No, está exenta del impuesto a la renta","correcta":true,"idpregunta":49},
+{"id":195,"respuesta":"Solo si excede 2 UIT","correcta":false,"idpregunta":49},
+{"id":196,"respuesta":"Depende de la categoría de renta","correcta":false,"idpregunta":49},
+{"id":197,"respuesta":"No se puede solicitar","correcta":false,"idpregunta":50},
+{"id":198,"respuesta":"Mediante una carta al empleador","correcta":false,"idpregunta":50},
+{"id":199,"respuesta":"A través de SUNAT con la declaración anual de renta","correcta":true,"idpregunta":50},
+{"id":200,"respuesta":"Solo en caso de despido","correcta":false,"idpregunta":50}
+
 ]
