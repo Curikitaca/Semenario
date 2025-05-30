@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:prueba_seminario1/componets/boton.dart';
+import 'package:prueba_seminario1/componets/botonmal.dart';
 import 'package:prueba_seminario1/componets/opcion.dart';
 import 'package:prueba_seminario1/data/usuario.dart';
 import 'package:prueba_seminario1/pages/cuestionarios/cuestionarios_controller.dart';
@@ -39,7 +40,7 @@ class _CuestionariosState extends State<Cuestionarios> {
         return false;
       },
       child: Scaffold(
-        backgroundColor: const Color(0xFFEED89B),
+        backgroundColor: const Color(0xFFFFFFFF),
         body: Stack(
           children: [
             SingleChildScrollView(
@@ -60,7 +61,7 @@ class _CuestionariosState extends State<Cuestionarios> {
                               value: progreso,
                               minHeight: 15,
                               backgroundColor: Colors.grey[300],
-                              color: Colors.lightBlue,
+                              color: const Color(0xFF35C441),
                               borderRadius: BorderRadius.circular(10),
                             ),
                           ),
@@ -96,6 +97,7 @@ class _CuestionariosState extends State<Cuestionarios> {
                               control.seleccion(context, r);
                             },
                             data: r.respuesta,
+                            seleccionado: control.respuestaSeleccionada.value == r,
                           ),
                         ),
                       const SizedBox(height: 50),
@@ -120,6 +122,7 @@ class _CuestionariosState extends State<Cuestionarios> {
             Obx(() {
               if (control.mostrarFeedbackActivo) {
                 final esCorrecta = control.esRespuestaCorrecta ;
+                 final colorFondo = esCorrecta ? const Color(0xFF35C441) : const Color(0xFFE7200A);
                 return Align(
                   alignment: Alignment.bottomCenter,
                   child: Container(
@@ -137,12 +140,13 @@ class _CuestionariosState extends State<Cuestionarios> {
                                 color: Colors.white, fontWeight: FontWeight.bold),
                           ),
                           SizedBox(height: 20),
-                          boton(
+                          botonc(
                             onPressed: () {
                               control.continuar(
                                   context, preguntasConRespuestas, user);
                             },
                             data: "Continuar",
+                            colorFondo: colorFondo,
                           ),
 
                       ],

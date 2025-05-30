@@ -17,7 +17,7 @@ class Nivelcomponent extends StatelessWidget {
       margin: const EdgeInsets.symmetric(horizontal: 100),
       decoration: BoxDecoration(
         shape: BoxShape.circle,
-        color: isDark ? const Color(0xFF2C2C2C) : const Color(0xFFEAD9B5),
+        color: isDark ? const Color(0xFFFFC300) : const Color(0xFFFFC300),
         boxShadow: [
           BoxShadow(
             color: Colors.black.withOpacity(0.3),
@@ -32,7 +32,7 @@ class Nivelcomponent extends StatelessWidget {
       child: Text(
         nivelData.nombre,
         style: TextStyle(
-          color: isDark ? Colors.white : Colors.black,
+          color: isDark ? Colors.black : Colors.black,
           fontWeight: FontWeight.bold,
           fontSize: 18,
         ),

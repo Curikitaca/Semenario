@@ -15,7 +15,7 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFEED89B),
+      backgroundColor: const Color(0xFFFFFFFF),
       body:Center(
           child: Container(
             width: MediaQuery.of(context).size.width,

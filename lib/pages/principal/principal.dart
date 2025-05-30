@@ -35,23 +35,23 @@ class _PrincipalState extends State<Principal> {
     final Usuario? user = sesion.getUsuario;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0xFFDABD87),
+        backgroundColor: const Color(0xFF35C441),
         automaticallyImplyLeading: false,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Row(
               children: [
-                Image.asset("assets/buho3.png", width: 40, height: 40),
+                Image.asset("assets/toro2.png", width: 40, height: 40),
                 const SizedBox(width: 5),
-                Text("nivel ${user!.nivelexperiencia.toString()}", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+                Text("nivel ${user!.nivelexperiencia.toString()}", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: const Color(0xFFFFFFFF))),
               ],
             ),
             Row(
               children: [
                 Image.asset("assets/corazon.png", width: 30, height: 30),
                 const SizedBox(width: 5),
-                Text(user.vidas.toString(), style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+                Text(user.vidas.toString(), style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: const Color(0xFFFFFFFF))),
               ],
             ),
           ],
@@ -63,13 +63,13 @@ class _PrincipalState extends State<Principal> {
                 width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
                   border: Border.all(color: Colors.black),
-                  color: const Color(0xFFEED89B),
+                  color: const Color(0xFFF5F5F5),
                 ),
                 child: Column(
                   children: [
                     Center(
                       child: Cardcustom(
-                        texto1: control1.seleccionado.value?.nombre ?? "Aritmetica",
+                        texto1: control1.seleccionado.value?.nombre ?? "Impuesto a la Renta",
                         textos2: "Hola",
                         onTap: () {
                           control1.Moduloseleccionado(context, control1.seleccionado.value);
@@ -131,11 +131,11 @@ class _PrincipalState extends State<Principal> {
               ),
             ),
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: const Color(0xFFDABD87),
+        backgroundColor: const Color(0xFF035C441),
         items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Niveles'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Perfil'),
-          BottomNavigationBarItem(icon: Icon(Icons.lightbulb), label: 'Insignias'),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Niveles', backgroundColor: Color(0xFFF5F5F5)),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Perfil', backgroundColor:  Color(0xFFF5F5F5)),
+          BottomNavigationBarItem(icon: Icon(Icons.lightbulb), label: 'Insignias', backgroundColor: Color(0xFFF5F5F5)),
         ],
       ),
     );

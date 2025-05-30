@@ -26,9 +26,9 @@ Widget build(BuildContext context) {
       return false; // 🔙 evita el pop normal
     },
     child: Scaffold(
-      backgroundColor: const Color(0XFFEED89B),
+      backgroundColor: const Color(0XFFFFFFFF),
       appBar: AppBar(
-        backgroundColor:  const Color(0XFFEED89B),
+        backgroundColor:  const Color(0XFFFFFFFF),
         automaticallyImplyLeading: false,
         leading: IconButton(
           icon: const Icon(Icons.close),

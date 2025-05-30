@@ -27,7 +27,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       theme: materialTheme.light(),
-      darkTheme: materialTheme.dark(),
       themeMode: ThemeMode.system,
       initialRoute: '/inicio',
       routes: {

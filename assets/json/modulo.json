@@ -2,22 +2,7 @@
 
     {
         "id":1,
-        "nombre":"Aritmética"
-    },
-
-    {
-      "id":2,
-      "nombre":"Geometria"  
-    },
-
-    {
-        "id":3,
-        "nombre":"Algebra"
-    },
-
-    {
-      "id":4,
-      "nombre":"Trigonometia"  
+        "nombre":"Impuesto a la renta"
     }
 
 ]

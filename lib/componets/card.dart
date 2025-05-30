@@ -25,8 +25,8 @@ class Cardcustom extends StatelessWidget {
 
     return Card(
       elevation: 4,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
-      color: Color(0xFFF5E1B8),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15),side: BorderSide(color: Color(0xFF35C441), width: 2)), // ✅ Borde verde),
+      color: Color(0xFFF5F5F5),
       child: InkWell(
         onTap: onTap,
         child: Container(
@@ -35,9 +35,9 @@ class Cardcustom extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(texto1 ?? 'Sin título disponible', style: TextStyle(fontWeight: FontWeight.bold)),
+              Text(texto1 ?? 'Sin título disponible', style: TextStyle(fontWeight: FontWeight.bold, color: const Color(0xFF35C441))),
               SizedBox(height: 8),
-              Text(textos2 ?? 'Sin título disponible', style: TextStyle(fontWeight: FontWeight.bold)),
+              Text(textos2 ?? 'Sin título disponible', style: TextStyle(fontWeight: FontWeight.bold, color: const Color(0xFF35C441))),
               if (mostrarProgreso)
                 Row(
                   children: [

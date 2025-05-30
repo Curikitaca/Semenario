@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:prueba_seminario1/componets/Iconobuho.dart';
 import 'package:prueba_seminario1/componets/boton.dart';
 import 'package:prueba_seminario1/data/nivel.dart';
 import 'package:prueba_seminario1/pages/Inicio_nivel/inicio_nivel_controller.dart';
@@ -18,14 +19,14 @@ class InicioNivel extends StatelessWidget {
   control.initialFetchRespuesta(context);
   final nivelData = ModalRoute.of(context)!.settings.arguments as Nivel;
    return  Scaffold(
-      backgroundColor: const Color(0xFFEED89B),
+      backgroundColor: const Color(0xFFFFFFFF),
       body: Center(
         child: Container(
           padding: EdgeInsets.all(40),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Image.asset('assets/buo1.PNG', width: 150, height: 150),
+              iconoBuho(),
               SizedBox(height: 20),
               SizedBox(
                 width: 300,
@@ -38,7 +39,7 @@ class InicioNivel extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 200),
+              SizedBox(height: 100),
               boton(
                 data: "Empezar",
                 onPressed: () {
