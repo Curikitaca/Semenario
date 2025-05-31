@@ -26,39 +26,10 @@ class Login extends StatelessWidget {
               mainAxisSize: MainAxisSize.max,
               children: [
                 iconoBuho(),
-                SizedBox(height: 50,),
-                Text("Iniciar Sesión", style: TextStyle(fontWeight: FontWeight.w800, fontSize: 30)),
                 SizedBox(height: 30,),
                 FormularioDemoState(control: control,),
                 SizedBox(height: 30,),
-                DividerWithNumber(),
-                SizedBox(height: 30,),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text("No tienes cuenta?",
-                        style: TextStyle(
-                          color: Colors.black, 
-                          fontWeight: FontWeight.normal,
-                          fontSize: 20
-                        ) 
-                      ),
-                    GestureDetector(
-                    onTap: () {
-                      control.irRegistro(context);
-                    },
-                      child: Text(
-                        'Registrate Aquí',
-                        style: TextStyle(
-                          color: Colors.black, 
-                          decoration: TextDecoration.underline, 
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20
-                          ) 
-                      )
-                    )
-                  ],
-                  )
+                
               ],
               
             ),

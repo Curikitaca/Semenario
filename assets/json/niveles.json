@@ -1,11 +1,10 @@
 [
-  { "id": 1, "nombre": "1", "idseccion": 1 },
+  { "id": 1, "nombre": "1", "idseccion": 1},
   { "id": 2, "nombre": "2", "idseccion": 1 },
   { "id": 3, "nombre": "3", "idseccion": 1 },
   { "id": 4, "nombre": "4", "idseccion": 1 },
-  { "id": 5, "nombre": "5", "idseccion": 1 },
-
-  { "id": 6, "nombre": "1", "idseccion": 2 },
+  { "id": 5, "nombre": "5", "idseccion": 1},
+  { "id": 6, "nombre": "1", "idseccion": 2},
   { "id": 7, "nombre": "2", "idseccion": 2 },
   { "id": 8, "nombre": "3", "idseccion": 2 },
   { "id": 9, "nombre": "4", "idseccion": 2 },

@@ -25,14 +25,29 @@ class textfieldcustom extends StatelessWidget {
       controller: controller,
       keyboardType: tipo ,
       decoration: InputDecoration(
-        border: OutlineInputBorder( borderRadius: BorderRadius.circular(10)),
-        filled: true,
-        fillColor: Color(0XFFFFFFFF),
-        contentPadding: EdgeInsets.fromLTRB(10, 0, 10, 20),
-          labelStyle: TextStyle(
-            color: Colors.black87,
-          ),
-      ),
+  filled: true,
+  fillColor: Color(0xFFFFFFFF),
+  contentPadding: EdgeInsets.fromLTRB(10, 0, 10, 20),
+  labelStyle: TextStyle(color: Colors.black87),
+
+  
+  enabledBorder: OutlineInputBorder(
+    borderRadius: BorderRadius.circular(10),
+    borderSide: BorderSide(color: Colors.green, width: 2),
+  ),
+
+
+  focusedBorder: OutlineInputBorder(
+    borderRadius: BorderRadius.circular(10),
+    borderSide: BorderSide(color: Colors.green, width: 2),
+  ),
+
+  
+  border: OutlineInputBorder(
+    borderRadius: BorderRadius.circular(10),
+    borderSide: BorderSide(color: Colors.green, width: 2),
+  ),
+),
     )
     );
   }

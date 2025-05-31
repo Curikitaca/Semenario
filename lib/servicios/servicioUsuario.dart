@@ -4,7 +4,7 @@ import 'package:prueba_seminario1/data/servicehttpresponse.dart';
 import 'package:prueba_seminario1/data/usuario.dart';
 
 class UsuarioService {
-  Future<ServiceHttpResponse?> fetchAll(String usuario, String contrasenia) async {
+  Future<ServiceHttpResponse?> fetchAll(String usuario, String correo, String edad) async {
     List<Usuario> usuarios = [];
     ServiceHttpResponse serviceResponse = ServiceHttpResponse();
     // inicio logica servidor
@@ -17,7 +17,7 @@ class UsuarioService {
     bool validos = false;
     Usuario? userLogeuado = null;
     for (var user in usuarios) {
-      if(user.nombre == usuario && user.contrasena == contrasenia){
+      if(user.nombre == usuario && user.correo == correo && user.edad.toString() == edad){
         validos = true;
         userLogeuado = user;
       }

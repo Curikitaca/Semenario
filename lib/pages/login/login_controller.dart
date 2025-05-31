@@ -8,16 +8,18 @@ import 'package:prueba_seminario1/data/usuario.dart';
 
 class LoginController extends GetxController {
   final nombreController = TextEditingController();
-  final contrasenaController = TextEditingController();
+  final correoController = TextEditingController();
+  final edadController = TextEditingController();
 
   final  UsuarioService usuarios = UsuarioService();
   final SesionController sesion = Get.put(SesionController());
 
   Future<void> login(BuildContext context) async {
     final nombre = nombreController.text.trim();
-    final contrasena = contrasenaController.text.trim();
+    final correo = correoController.text.trim();
+    final edad = edadController.text.trim();
 
-    ServiceHttpResponse? response = await usuarios.fetchAll(nombre, contrasena);
+    ServiceHttpResponse? response = await usuarios.fetchAll(nombre, correo, edad);
 
     if(response == null){
       print('no hay respuesta del servidor');

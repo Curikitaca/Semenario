@@ -1,0 +1,1 @@
+const BASE_URL = 'https://675a9533-80f3-4448-a618-ee0ec551aef6-00-28uln7kmjt4ix.kirk.replit.dev/';

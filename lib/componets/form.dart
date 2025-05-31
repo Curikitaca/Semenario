@@ -25,7 +25,7 @@ class _FormularioDemoStateState extends State<FormularioDemoState> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 20),
       decoration: BoxDecoration(
-        color: const Color(0xFFDABD87), // Fondo similar al de la imagen
+        color: const Color(0xFFFFFFFF), // Fondo similar al de la imagen
         borderRadius: BorderRadius.circular(12),
       ),
       child: Form(
@@ -38,39 +38,63 @@ class _FormularioDemoStateState extends State<FormularioDemoState> {
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
+                
               ),
             ),
-            const SizedBox(height: 5),
+            const SizedBox(height: 10),
             Container(
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(8),
+                border: Border.all(
+                    color: Colors.green, // Color del borde
+                    width: 2,            // Grosor del borde
+                ),
               ),
               child: textfieldcustom(
                 controller: control.nombreController,
                 tipo: TextInputType.text,
               ),
             ),
-            const SizedBox(height: 15),
+            const SizedBox(height: 20),
             const Text(
-              "Contraseña",
+              "Correo",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            const SizedBox(height: 5),
+            const SizedBox(height: 10),
             Container(
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(8),
               ),
               child: textfieldcustom(
-                controller: control.contrasenaController,
+                controller: control.correoController,
                 tipo: TextInputType.text,
               ),
             ),
             const SizedBox(height: 20),
+            const Text(
+              "Edad",
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            const SizedBox(height: 10),
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: textfieldcustom(
+                controller: control.edadController,
+                tipo: TextInputType.text,
+              ),
+            ),
+            const SizedBox(height: 40),
             SizedBox(
               width: double.infinity,
               height: 45,
@@ -78,21 +102,7 @@ class _FormularioDemoStateState extends State<FormularioDemoState> {
                   control.login(context);
               }, )),
             const SizedBox(height: 12),
-            Center(
-              child: GestureDetector(
-                    onTap: () {
-                      control.cambiarContrasena(context);
-                    },
-                      child: Text(
-                        '¿Olvidaste tu contraseña?',
-                        style: TextStyle(
-                          color: Colors.black,  
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20
-                          ) 
-                      )
-                    )
-            )
+            
           ],
         ),
       ),

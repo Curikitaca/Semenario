@@ -80,7 +80,7 @@ class _CuestionariosState extends State<Cuestionarios> {
                         ],
                       ),
                       const SizedBox(height: 20),
-                      Image.asset("assets/mate.png", height: 220, width: double.infinity),
+                      Image.asset("assets/impuesto.png", height: 220, width: double.infinity),
                       const SizedBox(height: 30),
                       Text(
                         pregunta.nombre,

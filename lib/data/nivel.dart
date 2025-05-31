@@ -2,11 +2,13 @@ class Nivel {
   int id;
   String nombre;
   int idseccion;
+ 
 
   Nivel({
     required this.id,
     required this.nombre,
     required this.idseccion,
+    
   });
 
   factory Nivel.fromJson(Map<String, dynamic> json) {
@@ -14,6 +16,7 @@ class Nivel {
       id: json['id'] ?? 0,
       nombre: json['nombre'] ?? '',
       idseccion: json['idseccion'] ?? 0,
+   
     );
   }
 
@@ -22,6 +25,7 @@ class Nivel {
       'id': id,
       'nombre': nombre,
       'idseccion': idseccion,
+      
     };
   }
 

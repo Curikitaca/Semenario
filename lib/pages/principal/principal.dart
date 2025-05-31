@@ -70,7 +70,7 @@ class _PrincipalState extends State<Principal> {
                     Center(
                       child: Cardcustom(
                         texto1: control1.seleccionado.value?.nombre ?? "Impuesto a la Renta",
-                        textos2: "Hola",
+                        textos2: "",
                         onTap: () {
                           control1.Moduloseleccionado(context, control1.seleccionado.value);
                           Navigator.pushReplacementNamed(context, '/Modulos');

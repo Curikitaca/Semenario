@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:prueba_seminario1/configs/base.dart';
 
 class iconoBuho extends StatelessWidget {
   const iconoBuho({
@@ -17,12 +18,13 @@ class iconoBuho extends StatelessWidget {
     child: Padding(
     padding: const EdgeInsets.all(0), // margen entre borde y imagen
     child: ClipOval(
-    child: Image.asset(
-      'assets/toro1.png',
-    // recorta bien dentro del círculo
-    ),
-    ),
+    child: ClipOval(
+          child: Image.asset(
+            'assets/toro1.png',
+
+          ),
+        ),
                   ),
-                );
+                ));
   }
 }

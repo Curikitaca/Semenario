@@ -15,21 +15,21 @@ class Cuestionariocorrecto extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
    return  Scaffold(
-      backgroundColor: const Color(0xFFEED89B),
+      backgroundColor: const Color(0xFFFFFFFF),
       body: Center(
         child: Container(
           padding: EdgeInsets.all(40),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Image.asset('assets/buho5.png', width: 200, height: 200),
+              Image.asset('assets/toro4.png', width: 200, height: 200),
               SizedBox(height: 20),
               SizedBox(
                 width: 300,
                 height: 150,
                 child: Center(
                   child: Text(
-                    "Buen trabajo sigue asi para mejorar tu nivel matemático",
+                    "Buen trabajo sigue asi para mejorar tu educación financiera",
                     style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
                     textAlign: TextAlign.center,
                   ),
